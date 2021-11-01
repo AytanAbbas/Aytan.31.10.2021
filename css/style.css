@@ -1,0 +1,52 @@
+#cart {
+  margin-top: 40px;
+  text-align: center;
+}
+#cart > li {
+  display: inline-block;
+  margin-right: 50px;
+  position: relative;
+}
+#cart > li a {
+  color: black;
+  text-decoration: none;
+}
+#cart > li a i {
+  color: #0000004a;
+  font-size: 21px;
+}
+#cart > li .badge {
+  width: 27px;
+  height: 19px;
+  margin-top: -7px;
+}
+#cart .cart-content {
+  display: none;
+}
+#products .card {
+  position: relative;
+}
+#products .card img {
+  max-height: 350px;
+}
+#products .card .card-body a {
+  width: 115px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#products .card .icons {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+}
+#products .card .icons i {
+  font-size: 25px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
